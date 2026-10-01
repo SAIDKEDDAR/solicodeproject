@@ -1,0 +1,11 @@
+let age = 17;
+let hasPremission = true;
+let isStudent = true;
+let isAdult = age >= 18;
+let canGoOut = hasPremission || isAdult;
+let getsDiscount = isStudent && age < 18;
+let notStudent = !isStudent;
+console.log(isAdult);
+console.log(canGoOut);
+console.log(getsDiscount);
+console.log(notStudent);
