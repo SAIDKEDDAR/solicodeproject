@@ -1,7 +1,7 @@
 let height = 10; 
 let i = 1;
 while (i <= height){
-     let test = "";
+     let test = " ";
     let e = 1;
 while(e <= height - i ){
     test = test + " ";
