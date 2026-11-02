@@ -1,0 +1,5 @@
+.liste-cartes {
+    display: flex;
+    /* Aligne les cartes au centre de la hauteur du conteneur */
+    align-items: center; 
+}
