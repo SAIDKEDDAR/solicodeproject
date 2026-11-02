@@ -1,0 +1,6 @@
+.liste-cartes {
+    display: flex;
+    flex-direction: row;
+    /* Espace de manière égale les éléments horizontalement */
+    justify-content: space-between; 
+}
