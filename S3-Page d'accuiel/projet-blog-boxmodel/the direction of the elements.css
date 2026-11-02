@@ -1,0 +1,9 @@
+.liste-cartes-colonne {
+    display: flex;
+    flex-direction: column; /* Empile les éléments de haut en bas */
+}
+
+.liste-cartes-ligne {
+    display: flex;
+    flex-direction: row; /* Aligne les éléments de gauche à droite */
+}
