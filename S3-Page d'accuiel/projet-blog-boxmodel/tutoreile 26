@@ -1,9 +1,0 @@
-mon-projet/
-├── index.html
-├── article.html
-├── css/
-│   ├── global.css
-│   └── layout.css
-└── img/
-    ├── logo.png
-    └── banniere.jpg

@@ -1,5 +1,0 @@
-.liste-cartes {
-    display: flex;
-    /* Autorise les éléments à passer à la ligne si la largeur est insuffisante */
-    flex-wrap: wrap; 
-}

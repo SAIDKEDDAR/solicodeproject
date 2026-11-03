@@ -1,5 +1,0 @@
-.liste-cartes {
-    display: flex;
-    /* Ajoute 24px d'espace entre chaque ligne et chaque colonne */
-    gap: 24px; 
-}
