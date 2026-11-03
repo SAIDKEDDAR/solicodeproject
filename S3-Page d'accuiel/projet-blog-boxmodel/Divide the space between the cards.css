@@ -1,0 +1,9 @@
+.carte-article {
+    /* La carte va grandir pour occuper l'espace vide restant */
+    flex: 1; 
+}
+
+.carte-principale {
+    /* Cette carte prendra 2 fois plus de place que les autres */
+    flex: 2;
+}
