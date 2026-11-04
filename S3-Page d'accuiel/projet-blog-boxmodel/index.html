@@ -1,156 +1,129 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Mon Blog Personnel</title>
 
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/pages.css">
-</head>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Bannière d'accueil -->
     <section class="banniere-accueil">
-        <div class="banniere-contenu">
-            <span class="surtitre">MON BLOG PERSONNEL</span>
+      <div class="banniere-contenu">
+        <span class="surtitre">MON BLOG PERSONNEL</span>
 
-            <h1>
-                Mon Blog Personnel :
-                <br>
-                <span>Développer &amp; Partager</span>
-            </h1>
+        <h1>
+          Mon Blog Personnel :
+          <br />
+          <span>Développer &amp; Partager</span>
+        </h1>
 
-            <p>
-                Découvrez mes derniers articles sur le développement web,
-                l'architecture logicielle et les bonnes pratiques
-                d'intégration UI/UX.
-            </p>
+        <p>
+          Découvrez mes derniers articles sur le développement web,
+          l'architecture logicielle et les bonnes pratiques d'intégration UI/UX.
+        </p>
 
-            <a href="#articles" class="bouton-principal">
-                Lire les articles
-            </a>
-        </div>
+        <a href="#articles" class="bouton-principal"> Lire les articles </a>
+      </div>
     </section>
 
     <!-- Section des articles -->
     <section class="section-articles" id="articles">
+      <div class="entete-articles">
+        <span class="surtitre">LE BLOG</span>
+        <h2>Derniers articles</h2>
+        <p>Découvrez mes conseils et ressources pour progresser.</p>
+      </div>
 
-        <div class="entete-articles">
-            <span class="surtitre">LE BLOG</span>
-            <h2>Derniers articles</h2>
-            <p>Découvrez mes conseils et ressources pour progresser.</p>
-        </div>
+      <div class="conteneur-articles">
+        <!-- Article 1 -->
+        <article class="carte-article">
+          <a href="#" class="carte-image">
+            <img
+              src="https://picsum.photos/id/0/600/400"
+              alt="Ordinateur portable pour le développement web"
+            />
+          </a>
 
-        <div class="conteneur-articles">
+          <span class="etiquette-categorie bleu"> Développement </span>
 
-            <!-- Article 1 -->
-            <article class="carte-article">
+          <div class="carte-contenu">
+            <h3>Comment bien débuter avec Tailwind CSS en 2026 ?</h3>
 
-                <a href="#" class="carte-image">
-                    <img
-                        src="https://picsum.photos/id/0/600/400"
-                        alt="Ordinateur portable pour le développement web"
-                    >
-                </a>
+            <p>
+              Découvrez les concepts fondamentaux de Tailwind CSS pour créer des
+              interfaces modernes et responsives.
+            </p>
 
-                <span class="etiquette-categorie bleu">
-                    Développement
-                </span>
+            <div class="carte-meta">
+              <span>14 Fév 2026</span>
+              <span>5 min de lecture</span>
+            </div>
+          </div>
+        </article>
 
-                <div class="carte-contenu">
-                    <h3>
-                        Comment bien débuter avec Tailwind CSS en 2026 ?
-                    </h3>
+        <!-- Article 2 -->
+        <article class="carte-article">
+          <a href="#" class="carte-image">
+            <img
+              src="https://picsum.photos/id/180/600/400"
+              alt="Matériel informatique sur un bureau"
+            />
+          </a>
 
-                    <p>
-                        Découvrez les concepts fondamentaux de Tailwind CSS
-                        pour créer des interfaces modernes et responsives.
-                    </p>
+          <span class="etiquette-categorie violet"> Technologie </span>
 
-                    <div class="carte-meta">
-                        <span>14 Fév 2026</span>
-                        <span>5 min de lecture</span>
-                    </div>
-                </div>
+          <div class="carte-contenu">
+            <h3>Les outils essentiels pour un développeur web</h3>
 
-            </article>
+            <p>
+              Découvrez les outils qui facilitent le travail quotidien des
+              développeurs web.
+            </p>
 
-            <!-- Article 2 -->
-            <article class="carte-article">
+            <div class="carte-meta">
+              <span>18 Fév 2026</span>
+              <span>4 min de lecture</span>
+            </div>
+          </div>
+        </article>
 
-                <a href="#" class="carte-image">
-                    <img
-                        src="https://picsum.photos/id/180/600/400"
-                        alt="Matériel informatique sur un bureau"
-                    >
-                </a>
+        <!-- Article 3 -->
+        <article class="carte-article">
+          <a href="#" class="carte-image">
+            <img
+              src="https://picsum.photos/id/48/600/400"
+              alt="Espace de travail créatif"
+            />
+          </a>
 
-                <span class="etiquette-categorie violet">
-                    Technologie
-                </span>
+          <span class="etiquette-categorie vert"> Programmation </span>
 
-                <div class="carte-contenu">
-                    <h3>
-                        Les outils essentiels pour un développeur web
-                    </h3>
+          <div class="carte-contenu">
+            <h3>Apprendre JavaScript étape par étape</h3>
 
-                    <p>
-                        Découvrez les outils qui facilitent le travail
-                        quotidien des développeurs web.
-                    </p>
+            <p>
+              Apprenez les bases de JavaScript pour rendre vos pages web
+              interactives.
+            </p>
 
-                    <div class="carte-meta">
-                        <span>18 Fév 2026</span>
-                        <span>4 min de lecture</span>
-                    </div>
-                </div>
-
-            </article>
-
-            <!-- Article 3 -->
-            <article class="carte-article">
-
-                <a href="#" class="carte-image">
-                    <img
-                        src="https://picsum.photos/id/48/600/400"
-                        alt="Espace de travail créatif"
-                    >
-                </a>
-
-                <span class="etiquette-categorie vert">
-                    Programmation
-                </span>
-
-                <div class="carte-contenu">
-                    <h3>
-                        Apprendre JavaScript étape par étape
-                    </h3>
-
-                    <p>
-                        Apprenez les bases de JavaScript pour rendre
-                        vos pages web interactives.
-                    </p>
-
-                    <div class="carte-meta">
-                        <span>22 Fév 2026</span>
-                        <span>6 min de lecture</span>
-                    </div>
-                </div>
-
-            </article>
-
-        </div>
+            <div class="carte-meta">
+              <span>22 Fév 2026</span>
+              <span>6 min de lecture</span>
+            </div>
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Mon Blog Personnel. Tous droits réservés.</p>
+      <p>&copy; 2026 Mon Blog Personnel. Tous droits réservés.</p>
     </footer>
-
-</body>
+  </body>
 </html>
