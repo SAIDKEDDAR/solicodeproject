@@ -74,12 +74,17 @@ h2 {
   justify-content: center;
 }
 .card {
+  display: inline-block;
   width: 300px;
   overflow: hidden;
   border: 2px solid #e1e5ea;
   border-radius: 16px;
   background-color: #f4f6f7;
   margin-bottom: 10px;
+  transition: transform 1s ease;
+}
+.card:hover {
+  transform: scale(1.08);
 }
 .card img {
   display: block;
@@ -95,7 +100,6 @@ h2 {
   padding: 25px;
   text-align: center;
 }
-
 a {
   text-decoration: none;
   color: #142b4a;
@@ -103,7 +107,6 @@ a {
 a:hover {
   color: #e5a94d;
 }
-
 footer {
   text-align: center;
   background-color: #142b4a;
