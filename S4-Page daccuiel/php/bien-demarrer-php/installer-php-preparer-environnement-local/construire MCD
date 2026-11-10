@@ -1,0 +1,39 @@
+# Construire le MCD
+
+## Tableau des associations
+
+| Entité A | Cardinalité A | Verbe | Cardinalité B | Entité B |
+|---|---|---|---|---|
+| VILLE | (0, N) | habite | (1, 1) | AUTEUR |
+| AUTEUR | (0, N) | rédige | (1, 1) | ARTICLE |
+| CATEGORIE | (0, N) | regroupe | (1, 1) | ARTICLE |
+
+## Entités et attributs
+
+L'identifiant de chaque entité est indiqué par « (identifiant) ».
+
+### VILLE
+
+- `id_ville` (identifiant)
+- `nom_ville`
+
+### AUTEUR
+
+- `id_auteur` (identifiant)
+- `nom_auteur`
+- `prenom_auteur`
+- `email_auteur`
+
+### CATEGORIE
+
+- `id_categorie` (identifiant)
+- `nom_categorie`
+
+### ARTICLE
+
+- `id_article` (identifiant)
+- `titre_article`
+- `contenu_article`
+- `date_publication`
+- `statut_article`
+- `image_article`
