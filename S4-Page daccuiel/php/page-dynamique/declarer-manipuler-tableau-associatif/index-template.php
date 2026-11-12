@@ -20,7 +20,7 @@
                 <div class="carte-contenu">
                     <h3><a href="article.php?id=<?= $article['id'] ?>"><?= htmlspecialchars($article['titre']) ?></a></h3>
                     
-                    <p><?= htmlspecialchars(substr($article['contenu'], 0, 100)) ?>...</p>
+                    <p><?= htmlspecialchars(mb_substr($article['contenu'], 0, 100)) ?>...</p>
                 
                     <div class="carte-meta">
                         <span><?= date('d M Y', strtotime($article['date_creation'])) ?></span> | 
