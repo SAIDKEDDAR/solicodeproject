@@ -1,5 +1,5 @@
-
 <?php
+
 $articles = [
     [
         'id' => 1,
