@@ -15,9 +15,16 @@
                     <img src="images/<?= htmlspecialchars($article['image']) ?>" alt="Illustration" width="150">
                 </a>
                 
-                <span class="etiquette-categorie"><?= htmlspecialchars($article['categorie_libelle']) ?></span>
+                <span class="etiquette-categorie <?php if ($article['categorie_couleur'] == 'bleu'): ?>bleu<?php else: ?>rose<?php endif; ?>">
+                    <?= htmlspecialchars($article['categorie_libelle']) ?>
+                </span>
                 
                 <div class="carte-contenu">
+
+                    <?php if ($article['id'] == 1): ?>
+                        <small class="badge-special">⭐ À la une</small>
+                    <?php endif; ?>
+
                     <h3><a href="article.php?id=<?= $article['id'] ?>"><?= htmlspecialchars($article['titre']) ?></a></h3>
                     
                     <p><?= htmlspecialchars(mb_substr($article['contenu'], 0, 100)) ?>...</p>
